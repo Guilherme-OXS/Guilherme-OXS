@@ -1,34 +1,53 @@
-name: Generate Pro Snake Animation
+name: Generate Pro Snake Animation (Pathfinding Algorithm)
 
 on:
+  # Agendamento: Executa o script automaticamente a cada 12 horas.
+  # Isso garante que seu perfil esteja sempre atualizado com seus commits corporativos e acadêmicos.
   schedule:
     - cron: "0 */12 * * *"
+    
+  # Gatilho manual: Permite que você clique em "Run workflow" na aba Actions quando desejar.
   workflow_dispatch:
+  
+  # Gatilho de Push: Atualiza a animação instantaneamente sempre que houver um novo push na branch principal.
   push:
     branches:
     - main
 
 jobs:
   generate:
+    # Definição de permissões de escrita necessárias para que o bot possa fazer o push da imagem SVG gerada.
     permissions:
       contents: write
+      
+    # Ambiente de execução conteinerizado.
     runs-on: ubuntu-latest
+    
+    # Prevenção de travamentos: Interrompe o job se o algoritmo demorar mais de 5 minutos para resolver a matriz.
     timeout-minutes: 5
 
     steps:
+      # Passo 1: O motor do GitHub Action executa a leitura da árvore do repositório.
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
-          # O token padrão que já funciona para o seu perfil
+          # Variável nativa que captura automaticamente o dono do repositório (Guilherme-OXS).
           github_user_name: ${{ github.repository_owner }}
+          
+          # Renderização de Múltiplos Outputs:
+          # Gera duas versões (Clara e Escura). 
+          # O parâmetro color_snake=#ED8B00 injeta a cor institucional do Java no corpo do algoritmo de pathfinding.
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#ED8B00&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ED8B00
 
+      # Passo 2: Publicação (Deployment) dos artefatos (arquivos SVG).
+      # Utiliza uma action segura para fazer o push das imagens renderizadas diretamente para a branch oculta "output".
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
+          # O token de segurança fornecido automaticamente pelo ambiente de CI/CD do GitHub.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
