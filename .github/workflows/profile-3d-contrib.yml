@@ -1,0 +1,34 @@
+name: Gerador de Contribuição 3D Isométrica
+
+on:
+  schedule:
+    # Executa todos os dias à meia-noite
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v3
+        
+      - name: Renderização do Gráfico 3D
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          
+      - name: Commit & Push das Imagens Geradas
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add -A .
+          git commit -m "chore(telemetria): atualização autônoma do gráfico 3D" || echo "Sem mudanças para commitar"
+          git push
