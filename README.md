@@ -33,7 +33,7 @@ Sou estudante de **Engenharia de Computação na PUC-GO** e atuo como estagiári
 
 <div align="center">
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Guilherme-OXS&theme=tokyonight&hide_border=true&locale=pt_BR" alt="GitHub Streak" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Guilherme-OXS&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&locale=pt-br" alt="Linguagens Principais" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Guilherme-OXS&show_icons=true&theme=tokyonight&hide_border=true&locale=pt-br" alt="Estatísticas Gerais" />
 </div>
 
 ### 🐍 Minhas Contribuições
