@@ -5,19 +5,19 @@
 <br>
 
 <div align="center">
-  <em>Construindo lógica, solucionando problemas e projetando arquiteturas escaláveis.</em>
+  <em>Projetando lógicas complexas, estruturando banco de dados e construindo arquiteturas escaláveis.</em>
 </div>
 
 <hr>
 
 ## 👨‍💻 Perfil Profissional
 
-Atualmente cursando **Engenharia de Computação na PUC-GO** e atuando no ambiente corporativo pela **AGEHAB**. Meu foco principal é o desenvolvimento de sistemas robustos, a aplicação rigorosa da engenharia de software e a construção de soluções que entregam valor real. Possuo facilidade em transitar entre os fundamentos de baixo nível da computação e as implementações modernas para aplicações web.
+Cursando **Engenharia de Computação na PUC-GO** e aplicando fundamentos de desenvolvimento de software em nível corporativo na **AGEHAB**. Meu foco técnico reside na criação de sistemas estruturados, automação de rotinas e na garantia de que a ponte entre o código e a infraestrutura de implantação opere com máxima eficiência e escalabilidade.
 
-### 🎯 Áreas de Atuação e Foco
-- **Engenharia de Software:** Aprofundamento contínuo em **Programação Orientada a Objetos (POO)**, modelagem de sistemas e **Estruturas de Dados** complexas utilizando Java.
-- **Desenvolvimento Corporativo:** Criação, manutenção e automação de processos em ambientes empresariais, alinhando regras de negócio com entregas tecnológicas eficientes.
-- **Ecossistema Web & Cloud:** Construção de aplicações dinâmicas (como sistemas de vendas e vitrines comerciais) com forte ênfase em performance e implantações em infraestrutura de nuvem.
+### 🎯 Especialidades e Foco de Atuação
+- **Engenharia de Software (Back-end):** Domínio em **Programação Orientada a Objetos (POO)** e Estruturas de Dados utilizando o ecossistema **Java** e **C/C++** para lógicas de alto processamento.
+- **Ecossistema Web & Cloud:** Desenvolvimento de aplicações dinâmicas e vitrines comerciais, gerenciando desde a modelagem de dados não-relacionais (**MongoDB**) até a orquestração de deploy contínuo em plataformas modernas.
+- **Visão Corporativa:** Alinhamento de requisitos técnicos com as regras de negócio reais, garantindo entregas de software sólidas, versionadas e altamente responsivas.
 
 <br>
 
@@ -26,7 +26,7 @@ Atualmente cursando **Engenharia de Computação na PUC-GO** e atuando no ambien
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <h3>Linguagens Base</h3>
+      <h3>Core & Lógica</h3>
       <br>
       <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" /><br><br>
       <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" /><br><br>
@@ -34,7 +34,7 @@ Atualmente cursando **Engenharia de Computação na PUC-GO** e atuando no ambien
       <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
     </td>
     <td align="center" width="33%">
-      <h3>Desenvolvimento Web</h3>
+      <h3>Web & Dados</h3>
       <br>
       <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" /><br><br>
       <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" /><br><br>
@@ -42,7 +42,7 @@ Atualmente cursando **Engenharia de Computação na PUC-GO** e atuando no ambien
       <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white" />
     </td>
     <td align="center" width="33%">
-      <h3>Infraestrutura & Deploy</h3>
+      <h3>Cloud & Infra</h3>
       <br>
       <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" /><br><br>
       <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" /><br><br>
@@ -54,19 +54,32 @@ Atualmente cursando **Engenharia de Computação na PUC-GO** e atuando no ambien
 
 <br>
 
-## 📈 Histórico de Atividade
+## 📡 Telemetria e Atividade de Código
 
+Abaixo estão as métricas automatizadas e geradas de forma autônoma por fluxos de CI/CD diretamente dos servidores do GitHub, refletindo o volume e a constância do meu código.
+
+### » Volume de Código (Métricas Avançadas)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Guilherme-OXS/Guilherme-OXS/output/github-metrics.svg" width="100%" alt="Métricas Avançadas do GitHub">
+</div>
+
+### » Distribuição de Esforço (Visão Isométrica 3D)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Guilherme-OXS/Guilherme-OXS/main/profile-3d-contrib/profile-night-green.svg" width="100%" alt="Gráfico de Contribuições 3D">
+</div>
+
+### » Pathfinding e Rotas (Análise Espacial de Commits)
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Guilherme-OXS/Guilherme-OXS/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Guilherme-OXS/Guilherme-OXS/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/Guilherme-OXS/Guilherme-OXS/output/github-contribution-grid-snake.svg" width="100%">
+    <img alt="Algoritmo da Cobrinha" src="https://raw.githubusercontent.com/Guilherme-OXS/Guilherme-OXS/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
 </div>
 
 <hr>
 
-## 📫 Contato Profissional
+## 📫 Conexão e Contato
 
 <div align="center">
   <a href="mailto:guilhermeotavioxxsouza@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
