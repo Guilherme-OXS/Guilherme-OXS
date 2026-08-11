@@ -58,11 +58,6 @@ Cursando **Engenharia de Computação na PUC-GO** e aplicando fundamentos de des
 
 Abaixo estão as métricas automatizadas e geradas de forma autônoma por fluxos de CI/CD diretamente dos servidores do GitHub, refletindo o volume e a constância do meu código.
 
-### » Volume de Código (Métricas Avançadas)
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Guilherme-OXS/Guilherme-OXS/output/github-metrics.svg" width="100%" alt="Métricas Avançadas do GitHub">
-</div>
-
 ### » Distribuição de Esforço (Visão Isométrica 3D)
 <div align="center">
   <img src="https://raw.githubusercontent.com/Guilherme-OXS/Guilherme-OXS/main/profile-3d-contrib/profile-night-green.svg" width="100%" alt="Gráfico de Contribuições 3D">
