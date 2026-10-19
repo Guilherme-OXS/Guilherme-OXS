@@ -17,7 +17,7 @@
 
 ###  Sobre Mim
 
-- 🎓 Graduando em **Engenharia de Computação** pela Pontifícia Universidade Católica de Goiás (PUC Goiás).
+- 🎓 Fazendo **Engenharia de Computação** através Pontifícia Universidade Católica de Goiás (PUC Goiás).
 - 💼 Experiência prática com automação de sistemas, modelagem de dados e desenvolvimento de software.
 - ⚙️ Foco técnico em **Desenvolvimento Backend, Arquitetura de Software e Otimização de Bancos de Dados**.
 - 🛠️ Trabalho rotineiramente com soluções envolvendo linguagens de sistemas (**C**), ecossistemas corporativos (**Java**) e o universo web (**Node.js/JavaScript**).
